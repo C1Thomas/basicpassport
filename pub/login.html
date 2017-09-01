@@ -1,0 +1,26 @@
+<html>
+<head>
+  <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" />
+  <meta charset="utf-8">
+  <title>Login Form</title>
+    <style>
+        label, input {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Login Please</h1>
+    <form action="http://localhost:3000/login" method="post">
+
+        <label for="username">username</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" required />
+
+        <button>Login</button>
+        
+    </form>
+</body>
+</html>
